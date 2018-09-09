@@ -2,6 +2,7 @@ import hashlib
 from time import time
 from urllib.parse import urlparse
 from uuid import uuid4
+import json
 
 #
 #	Defines the blockchain class to be used to create the Blockchain
@@ -49,7 +50,7 @@ class Blockchain:
         }
 
         # Reset the current list of transactions
-        self.current_transactions = []
+        # self.current_transactions = []
 
         self.chain.append(block)
         return block
