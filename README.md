@@ -1,2 +1,4 @@
 # BlockchainInCapitalMarkets
-For the NSE Future Hackathon
+Development started at NSE Future Hackathon.
+
+Now development going on for fun.
